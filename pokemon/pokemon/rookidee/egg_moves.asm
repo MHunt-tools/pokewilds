@@ -1,7 +1,0 @@
-	db DEFOG
-	db ROCK_SMASH
-	db ROOST
-	db SAND_ATTACK
-	db SKY_ATTACK
-	db SPITE
-	db TAILWIND

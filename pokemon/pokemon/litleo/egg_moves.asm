@@ -1,5 +1,0 @@
-	db ENTRAINMENT
-	db YAWN
-	db SNATCH
-	db FIRE_SPIN
-	db FLARE_BLITZ

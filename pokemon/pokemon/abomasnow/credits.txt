@@ -1,5 +1,0 @@
-front = CuervoTerras
-back = CuervoTerras
-animation = CuervoTerras
-overworld = InternetGoblin, Blumiau
-overworldanims = Galenorla

@@ -1,4 +1,0 @@
-	db ACUPRESSURE
-	db NIGHT_SLASH
-	db SLASH
-	db THRASH

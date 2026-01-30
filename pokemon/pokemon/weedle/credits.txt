@@ -1,5 +1,0 @@
-front = Sage
-back = Sage
-animation = Sage
-overworld = Megaman Omega, Blumiau
-overworldanims = Galenorla

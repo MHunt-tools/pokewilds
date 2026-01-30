@@ -1,6 +1,0 @@
-	db PAIN_SPLIT
-	db REFRESH
-	db TICKLE
-	db MIRROR_COAT
-	db MIST
-	db ENDURE

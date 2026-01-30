@@ -1,5 +1,0 @@
-front = EeVeeEe
-back = EeVeeEe
-animation = EeVeeEe
-overworld = Blumiau
-overworldanims = Blumiau, Galenorla

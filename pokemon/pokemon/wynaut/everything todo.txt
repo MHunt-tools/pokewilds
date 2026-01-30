@@ -1,1 +1,0 @@
-base_stats.asm, evos_attacks.asm and wilds_data.asm already done

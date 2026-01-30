@@ -1,6 +1,0 @@
-	db BELCH
-	db KNOCK_OFF
-	db SAND_ATTACK
-	db SNATCH
-	db FAKE_OUT
-	db MUD_SLAP

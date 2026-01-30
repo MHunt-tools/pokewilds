@@ -1,6 +1,0 @@
-	db CURSE
-	db DRAGON_RUSH
-	db ENDEAVOR
-	db HEAD_SMASH
-	db MUD_SLAP
-	db STOMP

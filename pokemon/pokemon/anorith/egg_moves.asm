@@ -1,6 +1,0 @@
-	db AQUA_JET
-	db CURSE
-	db KNOCK_OFF
-	db RAPID_SPIN
-	db SAND_ATTACK
-	db WATER_PULSE

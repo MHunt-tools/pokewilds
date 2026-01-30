@@ -1,5 +1,0 @@
-	db AERIAL_ACE
-	db AQUA_RING
-	db DEFOG
-	db FEATHER_DANCE
-	db ROOST

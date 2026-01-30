@@ -1,3 +1,0 @@
-	db TAILWIND
-	db SNATCH
-	db QUICK_GUARD

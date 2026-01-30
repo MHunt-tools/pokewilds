@@ -1,5 +1,0 @@
-front = kebabdev
-back = 
-animation = kebabdev
-overworld = Megaman Omega
-overworldanims = Galenorla

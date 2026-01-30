@@ -1,4 +1,0 @@
-	db DEFENSE_CURL
-	db DRAGON_RUSH
-	db THRASH
-	db TWISTER

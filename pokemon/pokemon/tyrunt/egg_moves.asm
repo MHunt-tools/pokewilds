@@ -1,4 +1,0 @@
-	db CURSE
-	db POISON_FANG
-	db ROCK_POLISH
-	db ROCK_THROW

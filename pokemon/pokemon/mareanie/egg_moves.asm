@@ -1,5 +1,0 @@
-	db STOCKPILE
-	db SWALLOW
-	db SPIT_UP
-	db HAZE
-	db INFESTATION

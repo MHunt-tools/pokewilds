@@ -1,2 +1,0 @@
-	db MEMENTO
-	db SUCKER_PUNCH
