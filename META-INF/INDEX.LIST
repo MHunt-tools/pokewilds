@@ -1,0 +1,10 @@
+JarIndex-Version: 1.0
+
+lwjgl-glfw.jar
+META-INF
+META-INF/versions
+META-INF/versions/9
+org
+org/lwjgl
+org/lwjgl/glfw
+
