@@ -1,0 +1,1535 @@
+{
+  "NORMAL": [
+    {
+      "move": "POUND",
+      "power": 40,
+      "avg_level": 1.2054794520547945
+    },
+    {
+      "move": "DOUBLESLAP",
+      "power": 15,
+      "avg_level": 13.25
+    },
+    {
+      "move": "COMET_PUNCH",
+      "power": 18,
+      "avg_level": 23.0
+    },
+    {
+      "move": "MEGA_PUNCH",
+      "power": 80,
+      "avg_level": 35.833333333333336
+    },
+    {
+      "move": "PAY_DAY",
+      "power": 40,
+      "avg_level": 12.0
+    },
+    {
+      "move": "SCRATCH",
+      "power": 40,
+      "avg_level": 1.3058823529411765
+    },
+    {
+      "move": "VICEGRIP",
+      "power": 55,
+      "avg_level": 1.6363636363636365
+    },
+    {
+      "move": "GUILLOTINE",
+      "power": 0,
+      "avg_level": 52.3125
+    },
+    {
+      "move": "RAZOR_WIND",
+      "power": 80,
+      "avg_level": 38.0
+    },
+    {
+      "move": "SWORDS_DANCE",
+      "power": 0,
+      "avg_level": 41.049180327868854
+    },
+    {
+      "move": "CUT",
+      "power": 50,
+      "avg_level": 15.0
+    },
+    {
+      "move": "WHIRLWIND",
+      "power": 0,
+      "avg_level": 21.76923076923077
+    },
+    {
+      "move": "BIND",
+      "power": 15,
+      "avg_level": 3.4074074074074074
+    },
+    {
+      "move": "SLAM",
+      "power": 80,
+      "avg_level": 29.0
+    },
+    {
+      "move": "STOMP",
+      "power": 65,
+      "avg_level": 21.522727272727273
+    },
+    {
+      "move": "MEGA_KICK",
+      "power": 120,
+      "avg_level": 46.0
+    },
+    {
+      "move": "HEADBUTT",
+      "power": 70,
+      "avg_level": 18.011764705882353
+    },
+    {
+      "move": "HORN_ATTACK",
+      "power": 65,
+      "avg_level": 18.307692307692307
+    },
+    {
+      "move": "FURY_ATTACK",
+      "power": 15,
+      "avg_level": 12.1875
+    },
+    {
+      "move": "HORN_DRILL",
+      "power": 1,
+      "avg_level": 45.22222222222222
+    },
+    {
+      "move": "TACKLE",
+      "power": 35,
+      "avg_level": 1.2569444444444444
+    },
+    {
+      "move": "BODY_SLAM",
+      "power": 85,
+      "avg_level": 31.37735849056604
+    },
+    {
+      "move": "WRAP",
+      "power": 15,
+      "avg_level": 3.888888888888889
+    },
+    {
+      "move": "TAKE_DOWN",
+      "power": 90,
+      "avg_level": 30.601503759398497
+    },
+    {
+      "move": "THRASH",
+      "power": 90,
+      "avg_level": 47.646153846153844
+    },
+    {
+      "move": "DOUBLE_EDGE",
+      "power": 120,
+      "avg_level": 43.77777777777778
+    },
+    {
+      "move": "TAIL_WHIP",
+      "power": 0,
+      "avg_level": 2.350515463917526
+    },
+    {
+      "move": "LEER",
+      "power": 0,
+      "avg_level": 1.9533678756476685
+    },
+    {
+      "move": "GROWL",
+      "power": 0,
+      "avg_level": 1.4831460674157304
+    },
+    {
+      "move": "ROAR",
+      "power": 0,
+      "avg_level": 23.58139534883721
+    },
+    {
+      "move": "SING",
+      "power": 0,
+      "avg_level": 10.423076923076923
+    },
+    {
+      "move": "SUPERSONIC",
+      "power": 0,
+      "avg_level": 8.693877551020408
+    },
+    {
+      "move": "SONICBOOM",
+      "power": 20,
+      "avg_level": 5.571428571428571
+    },
+    {
+      "move": "DISABLE",
+      "power": 0,
+      "avg_level": 9.81081081081081
+    },
+    {
+      "move": "HYPER_BEAM",
+      "power": 150,
+      "avg_level": 62.35897435897436
+    },
+    {
+      "move": "STRENGTH",
+      "power": 80,
+      "avg_level": 27.9
+    },
+    {
+      "move": "GROWTH",
+      "power": 0,
+      "avg_level": 7.037037037037037
+    },
+    {
+      "move": "QUICK_ATTACK",
+      "power": 40,
+      "avg_level": 5.032786885245901
+    },
+    {
+      "move": "RAGE",
+      "power": 20,
+      "avg_level": 12.307692307692308
+    },
+    {
+      "move": "MIMIC",
+      "power": 0,
+      "avg_level": 20.333333333333332
+    },
+    {
+      "move": "SCREECH",
+      "power": 0,
+      "avg_level": 27.73469387755102
+    },
+    {
+      "move": "DOUBLE_TEAM",
+      "power": 0,
+      "avg_level": 12.883720930232558
+    },
+    {
+      "move": "RECOVER",
+      "power": 0,
+      "avg_level": 34.70454545454545
+    },
+    {
+      "move": "HARDEN",
+      "power": 0,
+      "avg_level": 1.8611111111111112
+    },
+    {
+      "move": "MINIMIZE",
+      "power": 0,
+      "avg_level": 6.176470588235294
+    },
+    {
+      "move": "SMOKESCREEN",
+      "power": 0,
+      "avg_level": 4.633333333333334
+    },
+    {
+      "move": "DEFENSE_CURL",
+      "power": 0,
+      "avg_level": 3.767857142857143
+    },
+    {
+      "move": "FOCUS_ENERGY",
+      "power": 0,
+      "avg_level": 12.166666666666666
+    },
+    {
+      "move": "BIDE",
+      "power": 0,
+      "avg_level": 10.692307692307692
+    },
+    {
+      "move": "METRONOME",
+      "power": 0,
+      "avg_level": 21.375
+    },
+    {
+      "move": "SELFDESTRUCT",
+      "power": 200,
+      "avg_level": 27.333333333333332
+    },
+    {
+      "move": "EGG_BOMB",
+      "power": 100,
+      "avg_level": null
+    },
+    {
+      "move": "SWIFT",
+      "power": 60,
+      "avg_level": 12.857142857142858
+    },
+    {
+      "move": "SKULL_BASH",
+      "power": 100,
+      "avg_level": 41.875
+    },
+    {
+      "move": "SPIKE_CANNON",
+      "power": 20,
+      "avg_level": null
+    },
+    {
+      "move": "CONSTRICT",
+      "power": 10,
+      "avg_level": 1.0
+    },
+    {
+      "move": "SOFTBOILED",
+      "power": 0,
+      "avg_level": 44.0
+    },
+    {
+      "move": "GLARE",
+      "power": 0,
+      "avg_level": 22.0
+    },
+    {
+      "move": "BARRAGE",
+      "power": 15,
+      "avg_level": null
+    },
+    {
+      "move": "LOVELY_KISS",
+      "power": 0,
+      "avg_level": 40.0
+    },
+    {
+      "move": "TRANSFORM",
+      "power": 0,
+      "avg_level": 40.5
+    },
+    {
+      "move": "DIZZY_PUNCH",
+      "power": 70,
+      "avg_level": 24.333333333333332
+    },
+    {
+      "move": "FLASH",
+      "power": 0,
+      "avg_level": 1.0
+    },
+    {
+      "move": "SPLASH",
+      "power": 0,
+      "avg_level": 1.0
+    },
+    {
+      "move": "EXPLOSION",
+      "power": 250,
+      "avg_level": 47.526315789473685
+    },
+    {
+      "move": "FURY_SWIPES",
+      "power": 18,
+      "avg_level": 15.21875
+    },
+    {
+      "move": "HYPER_FANG",
+      "power": 80,
+      "avg_level": 29.22222222222222
+    },
+    {
+      "move": "SHARPEN",
+      "power": 0,
+      "avg_level": null
+    },
+    {
+      "move": "CONVERSION",
+      "power": 0,
+      "avg_level": 1.0
+    },
+    {
+      "move": "TRI_ATTACK",
+      "power": 80,
+      "avg_level": 14.133333333333333
+    },
+    {
+      "move": "SUPER_FANG",
+      "power": 1,
+      "avg_level": 36.5
+    },
+    {
+      "move": "SLASH",
+      "power": 70,
+      "avg_level": 22.45263157894737
+    },
+    {
+      "move": "SUBSTITUTE",
+      "power": 0,
+      "avg_level": 39.8
+    },
+    {
+      "move": "STRUGGLE",
+      "power": 50,
+      "avg_level": null
+    },
+    {
+      "move": "SKETCH",
+      "power": 0,
+      "avg_level": 46.0
+    },
+    {
+      "move": "MIND_READER",
+      "power": 0,
+      "avg_level": 33.5
+    },
+    {
+      "move": "SNORE",
+      "power": 40,
+      "avg_level": 25.636363636363637
+    },
+    {
+      "move": "FLAIL",
+      "power": 1,
+      "avg_level": 20.577464788732396
+    },
+    {
+      "move": "CONVERSION2",
+      "power": 0,
+      "avg_level": 25.0
+    },
+    {
+      "move": "PROTECT",
+      "power": 0,
+      "avg_level": 12.965909090909092
+    },
+    {
+      "move": "SCARY_FACE",
+      "power": 0,
+      "avg_level": 21.61261261261261
+    },
+    {
+      "move": "SWEET_KISS",
+      "power": 0,
+      "avg_level": 9.961538461538462
+    },
+    {
+      "move": "BELLY_DRUM",
+      "power": 0,
+      "avg_level": 33.75
+    },
+    {
+      "move": "FORESIGHT",
+      "power": 0,
+      "avg_level": 1.4285714285714286
+    },
+    {
+      "move": "PERISH_SONG",
+      "power": 0,
+      "avg_level": 48.5
+    },
+    {
+      "move": "LOCK_ON",
+      "power": 0,
+      "avg_level": 45.0
+    },
+    {
+      "move": "ENDURE",
+      "power": 0,
+      "avg_level": 20.5
+    },
+    {
+      "move": "CHARM",
+      "power": 0,
+      "avg_level": 14.628205128205128
+    },
+    {
+      "move": "FALSE_SWIPE",
+      "power": 40,
+      "avg_level": 8.476190476190476
+    },
+    {
+      "move": "SWAGGER",
+      "power": 0,
+      "avg_level": 23.098360655737704
+    },
+    {
+      "move": "MILK_DRINK",
+      "power": 0,
+      "avg_level": 47.666666666666664
+    },
+    {
+      "move": "MEAN_LOOK",
+      "power": 0,
+      "avg_level": 28.076923076923077
+    },
+    {
+      "move": "ATTRACT",
+      "power": 0,
+      "avg_level": 22.95
+    },
+    {
+      "move": "SLEEP_TALK",
+      "power": 0,
+      "avg_level": 16.25
+    },
+    {
+      "move": "HEAL_BELL",
+      "power": 0,
+      "avg_level": 21.25
+    },
+    {
+      "move": "RETURN",
+      "power": 1,
+      "avg_level": null
+    },
+    {
+      "move": "PRESENT",
+      "power": 1,
+      "avg_level": 1.0
+    },
+    {
+      "move": "FRUSTRATION",
+      "power": 1,
+      "avg_level": null
+    },
+    {
+      "move": "SAFEGUARD",
+      "power": 0,
+      "avg_level": 28.261904761904763
+    },
+    {
+      "move": "PAIN_SPLIT",
+      "power": 0,
+      "avg_level": 43.6
+    },
+    {
+      "move": "BATON_PASS",
+      "power": 0,
+      "avg_level": 19.675
+    },
+    {
+      "move": "ENCORE",
+      "power": 0,
+      "avg_level": 14.675675675675675
+    },
+    {
+      "move": "RAPID_SPIN",
+      "power": 20,
+      "avg_level": 5.375
+    },
+    {
+      "move": "SWEET_SCENT",
+      "power": 0,
+      "avg_level": 15.16
+    },
+    {
+      "move": "MORNING_SUN",
+      "power": 0,
+      "avg_level": 12.285714285714286
+    },
+    {
+      "move": "MOONLIGHT",
+      "power": 0,
+      "avg_level": 17.31578947368421
+    },
+    {
+      "move": "HIDDEN_POWER",
+      "power": 1,
+      "avg_level": 16.833333333333332
+    },
+    {
+      "move": "PSYCH_UP",
+      "power": 0,
+      "avg_level": 34.52173913043478
+    },
+    {
+      "move": "EXTREMESPEED",
+      "power": 80,
+      "avg_level": 14.454545454545455
+    },
+    {
+      "move": "HYPER_VOICE",
+      "power": 90,
+      "avg_level": 40.47222222222222
+    },
+    {
+      "move": "CRUSH_GRIP",
+      "power": 1,
+      "avg_level": 78.0
+    },
+    {
+      "move": "DOUBLE_HIT",
+      "power": 30,
+      "avg_level": 16.307692307692307
+    },
+    {
+      "move": "HEAD_CHARGE",
+      "power": 120,
+      "avg_level": 40.0
+    }
+  ],
+  "FIGHTING": [
+    {
+      "move": "KARATE_CHOP",
+      "power": 50,
+      "avg_level": 8.0
+    },
+    {
+      "move": "DOUBLE_KICK",
+      "power": 30,
+      "avg_level": 14.63888888888889
+    },
+    {
+      "move": "JUMP_KICK",
+      "power": 70,
+      "avg_level": 34.8
+    },
+    {
+      "move": "ROLLING_KICK",
+      "power": 60,
+      "avg_level": null
+    },
+    {
+      "move": "SUBMISSION",
+      "power": 80,
+      "avg_level": 18.571428571428573
+    },
+    {
+      "move": "LOW_KICK",
+      "power": 50,
+      "avg_level": 16.476190476190474
+    },
+    {
+      "move": "COUNTER",
+      "power": 1,
+      "avg_level": 30.424242424242426
+    },
+    {
+      "move": "SEISMIC_TOSS",
+      "power": 1,
+      "avg_level": 28.4
+    },
+    {
+      "move": "HI_JUMP_KICK",
+      "power": 85,
+      "avg_level": 50.0
+    },
+    {
+      "move": "TRIPLE_KICK",
+      "power": 10,
+      "avg_level": 10.333333333333334
+    },
+    {
+      "move": "REVERSAL",
+      "power": 1,
+      "avg_level": 36.4054054054054
+    },
+    {
+      "move": "MACH_PUNCH",
+      "power": 40,
+      "avg_level": 4.625
+    },
+    {
+      "move": "DETECT",
+      "power": 0,
+      "avg_level": 17.25
+    },
+    {
+      "move": "DYNAMICPUNCH",
+      "power": 100,
+      "avg_level": 44.9375
+    },
+    {
+      "move": "VITAL_THROW",
+      "power": 70,
+      "avg_level": 25.0
+    },
+    {
+      "move": "CROSS_CHOP",
+      "power": 100,
+      "avg_level": 34.0
+    },
+    {
+      "move": "ROCK_SMASH",
+      "power": 20,
+      "avg_level": 4.392857142857143
+    },
+    {
+      "move": "AURA_SPHERE",
+      "power": 80,
+      "avg_level": 40.15384615384615
+    },
+    {
+      "move": "DRAIN_PUNCH",
+      "power": 75,
+      "avg_level": 18.0
+    }
+  ],
+  "FIRE": [
+    {
+      "move": "FIRE_PUNCH",
+      "power": 75,
+      "avg_level": 14.214285714285714
+    },
+    {
+      "move": "EMBER",
+      "power": 40,
+      "avg_level": 3.2467532467532467
+    },
+    {
+      "move": "FLAMETHROWER",
+      "power": 95,
+      "avg_level": 36.18181818181818
+    },
+    {
+      "move": "FIRE_SPIN",
+      "power": 15,
+      "avg_level": 24.88
+    },
+    {
+      "move": "FIRE_BLAST",
+      "power": 120,
+      "avg_level": 55.111111111111114
+    },
+    {
+      "move": "FLAME_WHEEL",
+      "power": 60,
+      "avg_level": 16.45
+    },
+    {
+      "move": "SACRED_FIRE",
+      "power": 100,
+      "avg_level": 27.5
+    },
+    {
+      "move": "SUNNY_DAY",
+      "power": 0,
+      "avg_level": 34.57692307692308
+    },
+    {
+      "move": "WILL_O_WISP",
+      "power": 0,
+      "avg_level": 24.857142857142858
+    },
+    {
+      "move": "FLARE_BLITZ",
+      "power": 120,
+      "avg_level": 47.0625
+    }
+  ],
+  "ICE": [
+    {
+      "move": "ICE_PUNCH",
+      "power": 75,
+      "avg_level": 12.142857142857142
+    },
+    {
+      "move": "MIST",
+      "power": 0,
+      "avg_level": 19.91891891891892
+    },
+    {
+      "move": "ICE_BEAM",
+      "power": 95,
+      "avg_level": 38.294117647058826
+    },
+    {
+      "move": "BLIZZARD",
+      "power": 120,
+      "avg_level": 52.74285714285714
+    },
+    {
+      "move": "AURORA_BEAM",
+      "power": 65,
+      "avg_level": 22.529411764705884
+    },
+    {
+      "move": "HAZE",
+      "power": 0,
+      "avg_level": 24.53846153846154
+    },
+    {
+      "move": "POWDER_SNOW",
+      "power": 40,
+      "avg_level": 3.0
+    },
+    {
+      "move": "ICY_WIND",
+      "power": 55,
+      "avg_level": 14.823529411764707
+    }
+  ],
+  "ELECTRIC": [
+    {
+      "move": "THUNDERPUNCH",
+      "power": 75,
+      "avg_level": 12.0
+    },
+    {
+      "move": "THUNDERSHOCK",
+      "power": 40,
+      "avg_level": 3.7777777777777777
+    },
+    {
+      "move": "THUNDERBOLT",
+      "power": 95,
+      "avg_level": 27.785714285714285
+    },
+    {
+      "move": "THUNDER_WAVE",
+      "power": 0,
+      "avg_level": 12.297872340425531
+    },
+    {
+      "move": "THUNDER",
+      "power": 120,
+      "avg_level": 46.142857142857146
+    },
+    {
+      "move": "ZAP_CANNON",
+      "power": 100,
+      "avg_level": 54.53846153846154
+    },
+    {
+      "move": "SPARK",
+      "power": 65,
+      "avg_level": 15.378378378378379
+    },
+    {
+      "move": "THUNDER_CAGE",
+      "power": 80,
+      "avg_level": 36.0
+    },
+    {
+      "move": "SHOCK_WAVE",
+      "power": 60,
+      "avg_level": 17.53846153846154
+    },
+    {
+      "move": "VOLT_TACKLE",
+      "power": 120,
+      "avg_level": null
+    },
+    {
+      "move": "WILD_CHARGE",
+      "power": 90,
+      "avg_level": 54.285714285714285
+    },
+    {
+      "move": "WOOD_HAMMER",
+      "power": 120,
+      "avg_level": 33.411764705882355
+    }
+  ],
+  "FLYING": [
+    {
+      "move": "GUST",
+      "power": 40,
+      "avg_level": 3.227272727272727
+    },
+    {
+      "move": "WING_ATTACK",
+      "power": 60,
+      "avg_level": 11.617647058823529
+    },
+    {
+      "move": "FLY",
+      "power": 70,
+      "avg_level": 43.0
+    },
+    {
+      "move": "PECK",
+      "power": 35,
+      "avg_level": 2.388888888888889
+    },
+    {
+      "move": "DRILL_PECK",
+      "power": 80,
+      "avg_level": 36.705882352941174
+    },
+    {
+      "move": "MIRROR_MOVE",
+      "power": 0,
+      "avg_level": 34.42857142857143
+    },
+    {
+      "move": "SKY_ATTACK",
+      "power": 140,
+      "avg_level": 47.642857142857146
+    },
+    {
+      "move": "AEROBLAST",
+      "power": 100,
+      "avg_level": 54.0
+    },
+    {
+      "move": "AERIAL_ACE",
+      "power": 60,
+      "avg_level": 17.151515151515152
+    },
+    {
+      "move": "AIR_SLASH",
+      "power": 100,
+      "avg_level": 30.75438596491228
+    },
+    {
+      "move": "AIR_CUTTER",
+      "power": 60,
+      "avg_level": 16.333333333333332
+    },
+    {
+      "move": "BRAVE_BIRD",
+      "power": 120,
+      "avg_level": 50.875
+    }
+  ],
+  "GRASS": [
+    {
+      "move": "VINE_WHIP",
+      "power": 35,
+      "avg_level": 4.785714285714286
+    },
+    {
+      "move": "ABSORB",
+      "power": 20,
+      "avg_level": 3.0
+    },
+    {
+      "move": "MEGA_DRAIN",
+      "power": 40,
+      "avg_level": 12.472727272727273
+    },
+    {
+      "move": "LEECH_SEED",
+      "power": 0,
+      "avg_level": 16.58490566037736
+    },
+    {
+      "move": "RAZOR_LEAF",
+      "power": 55,
+      "avg_level": 10.846153846153847
+    },
+    {
+      "move": "SOLARBEAM",
+      "power": 120,
+      "avg_level": 47.10344827586207
+    },
+    {
+      "move": "STUN_SPORE",
+      "power": 0,
+      "avg_level": 7.833333333333333
+    },
+    {
+      "move": "SLEEP_POWDER",
+      "power": 0,
+      "avg_level": 15.304347826086957
+    },
+    {
+      "move": "PETAL_DANCE",
+      "power": 70,
+      "avg_level": 24.666666666666668
+    },
+    {
+      "move": "SPORE",
+      "power": 0,
+      "avg_level": 38.0
+    },
+    {
+      "move": "COTTON_SPORE",
+      "power": 0,
+      "avg_level": 24.6
+    },
+    {
+      "move": "GIGA_DRAIN",
+      "power": 60,
+      "avg_level": 28.074074074074073
+    },
+    {
+      "move": "SYNTHESIS",
+      "power": 0,
+      "avg_level": 21.627906976744185
+    },
+    {
+      "move": "ENERGY_BALL",
+      "power": 90,
+      "avg_level": 33.82608695652174
+    },
+    {
+      "move": "SEED_BOMB",
+      "power": 80,
+      "avg_level": 25.41176470588235
+    }
+  ],
+  "GROUND": [
+    {
+      "move": "SAND_ATTACK",
+      "power": 0,
+      "avg_level": 4.655172413793103
+    },
+    {
+      "move": "EARTHQUAKE",
+      "power": 100,
+      "avg_level": 40.12
+    },
+    {
+      "move": "FISSURE",
+      "power": 1,
+      "avg_level": 43.5625
+    },
+    {
+      "move": "DIG",
+      "power": 60,
+      "avg_level": 27.705882352941178
+    },
+    {
+      "move": "BONE_CLUB",
+      "power": 65,
+      "avg_level": null
+    },
+    {
+      "move": "BONEMERANG",
+      "power": 50,
+      "avg_level": 45.333333333333336
+    },
+    {
+      "move": "MUD_SLAP",
+      "power": 20,
+      "avg_level": 4.404255319148936
+    },
+    {
+      "move": "SPIKES",
+      "power": 0,
+      "avg_level": 26.125
+    },
+    {
+      "move": "BONE_RUSH",
+      "power": 25,
+      "avg_level": 21.333333333333332
+    },
+    {
+      "move": "MAGNITUDE",
+      "power": 1,
+      "avg_level": 15.0
+    },
+    {
+      "move": "EARTH_POWER",
+      "power": 90,
+      "avg_level": 38.7027027027027
+    }
+  ],
+  "POISON": [
+    {
+      "move": "POISON_STING",
+      "power": 15,
+      "avg_level": 1.3888888888888888
+    },
+    {
+      "move": "ACID",
+      "power": 40,
+      "avg_level": 5.769230769230769
+    },
+    {
+      "move": "POISONPOWDER",
+      "power": 0,
+      "avg_level": 11.193548387096774
+    },
+    {
+      "move": "TOXIC",
+      "power": 0,
+      "avg_level": 33.857142857142854
+    },
+    {
+      "move": "SMOG",
+      "power": 20,
+      "avg_level": 5.571428571428571
+    },
+    {
+      "move": "SLUDGE",
+      "power": 65,
+      "avg_level": 14.11111111111111
+    },
+    {
+      "move": "POISON_GAS",
+      "power": 0,
+      "avg_level": 4.066666666666666
+    },
+    {
+      "move": "ACID_ARMOR",
+      "power": 0,
+      "avg_level": 31.11111111111111
+    },
+    {
+      "move": "SLUDGE_BOMB",
+      "power": 90,
+      "avg_level": 36.666666666666664
+    },
+    {
+      "move": "POISON_JAB",
+      "power": 80,
+      "avg_level": 37.31818181818182
+    }
+  ],
+  "BUG": [
+    {
+      "move": "TWINEEDLE",
+      "power": 25,
+      "avg_level": 0.5
+    },
+    {
+      "move": "PIN_MISSILE",
+      "power": 14,
+      "avg_level": 24.782608695652176
+    },
+    {
+      "move": "STRING_SHOT",
+      "power": 0,
+      "avg_level": 4.473684210526316
+    },
+    {
+      "move": "LEECH_LIFE",
+      "power": 20,
+      "avg_level": 48.27272727272727
+    },
+    {
+      "move": "SPIDER_WEB",
+      "power": 0,
+      "avg_level": 30.5
+    },
+    {
+      "move": "FURY_CUTTER",
+      "power": 10,
+      "avg_level": 5.604651162790698
+    },
+    {
+      "move": "MEGAHORN",
+      "power": 120,
+      "avg_level": 43.0
+    },
+    {
+      "move": "BUG_BUZZ",
+      "power": 90,
+      "avg_level": 39.55555555555556
+    },
+    {
+      "move": "SIGNAL_BEAM",
+      "power": 75,
+      "avg_level": 27.625
+    },
+    {
+      "move": "STRUGGLE_BUG",
+      "power": 50,
+      "avg_level": 8.772727272727273
+    }
+  ],
+  "DARK": [
+    {
+      "move": "BITE",
+      "power": 60,
+      "avg_level": 11.078787878787878
+    },
+    {
+      "move": "THIEF",
+      "power": 40,
+      "avg_level": 0.75
+    },
+    {
+      "move": "FAINT_ATTACK",
+      "power": 60,
+      "avg_level": 20.333333333333332
+    },
+    {
+      "move": "PURSUIT",
+      "power": 40,
+      "avg_level": 12.413793103448276
+    },
+    {
+      "move": "CRUNCH",
+      "power": 80,
+      "avg_level": 29.94927536231884
+    },
+    {
+      "move": "BEAT_UP",
+      "power": 10,
+      "avg_level": 16.545454545454547
+    },
+    {
+      "move": "FEINT_ATTACK",
+      "power": 60,
+      "avg_level": null
+    },
+    {
+      "move": "NASTY_PLOT",
+      "power": 0,
+      "avg_level": 35.644067796610166
+    },
+    {
+      "move": "NIGHT_SLASH",
+      "power": 70,
+      "avg_level": 23.463414634146343
+    },
+    {
+      "move": "DARK_PULSE",
+      "power": 80,
+      "avg_level": 42.57142857142857
+    }
+  ],
+  "WATER": [
+    {
+      "move": "WATER_GUN",
+      "power": 40,
+      "avg_level": 2.768595041322314
+    },
+    {
+      "move": "HYDRO_PUMP",
+      "power": 120,
+      "avg_level": 48.57831325301205
+    },
+    {
+      "move": "SURF",
+      "power": 95,
+      "avg_level": 35.8421052631579
+    },
+    {
+      "move": "BUBBLEBEAM",
+      "power": 65,
+      "avg_level": 17.5
+    },
+    {
+      "move": "WITHDRAW",
+      "power": 0,
+      "avg_level": 2.5
+    },
+    {
+      "move": "WATERFALL",
+      "power": 80,
+      "avg_level": 31.0
+    },
+    {
+      "move": "CLAMP",
+      "power": 35,
+      "avg_level": 1.0
+    },
+    {
+      "move": "BUBBLE",
+      "power": 20,
+      "avg_level": 3.0625
+    },
+    {
+      "move": "CRABHAMMER",
+      "power": 90,
+      "avg_level": 49.857142857142854
+    },
+    {
+      "move": "OCTAZOOKA",
+      "power": 65,
+      "avg_level": 0.6666666666666666
+    },
+    {
+      "move": "RAIN_DANCE",
+      "power": 0,
+      "avg_level": 37.732142857142854
+    },
+    {
+      "move": "WHIRLPOOL",
+      "power": 15,
+      "avg_level": 25.636363636363637
+    },
+    {
+      "move": "AQUA_JET",
+      "power": 40,
+      "avg_level": 12.6
+    }
+  ],
+  "PSYCHIC": [
+    {
+      "move": "PSYBEAM",
+      "power": 65,
+      "avg_level": 17.29850746268657
+    },
+    {
+      "move": "CONFUSION",
+      "power": 50,
+      "avg_level": 4.7272727272727275
+    },
+    {
+      "move": "PSYCHIC",
+      "power": 90,
+      "avg_level": 41.76
+    },
+    {
+      "move": "HYPNOSIS",
+      "power": 0,
+      "avg_level": 14.130434782608695
+    },
+    {
+      "move": "MEDITATE",
+      "power": 0,
+      "avg_level": 10.2
+    },
+    {
+      "move": "AGILITY",
+      "power": 0,
+      "avg_level": 28.48148148148148
+    },
+    {
+      "move": "TELEPORT",
+      "power": 0,
+      "avg_level": 6.176470588235294
+    },
+    {
+      "move": "BARRIER",
+      "power": 0,
+      "avg_level": null
+    },
+    {
+      "move": "LIGHT_SCREEN",
+      "power": 0,
+      "avg_level": 29.26923076923077
+    },
+    {
+      "move": "REFLECT",
+      "power": 0,
+      "avg_level": 18.48148148148148
+    },
+    {
+      "move": "AMNESIA",
+      "power": 0,
+      "avg_level": 30.153846153846153
+    },
+    {
+      "move": "KINESIS",
+      "power": 0,
+      "avg_level": 1.0
+    },
+    {
+      "move": "DREAM_EATER",
+      "power": 100,
+      "avg_level": 47.5
+    },
+    {
+      "move": "PSYWAVE",
+      "power": 1,
+      "avg_level": 8.285714285714286
+    },
+    {
+      "move": "REST",
+      "power": 0,
+      "avg_level": 26.863636363636363
+    },
+    {
+      "move": "MIRROR_COAT",
+      "power": 1,
+      "avg_level": 36.5
+    },
+    {
+      "move": "FUTURE_SIGHT",
+      "power": 80,
+      "avg_level": 51.55555555555556
+    },
+    {
+      "move": "ZEN_HEADBUTT",
+      "power": 80,
+      "avg_level": 30.106382978723403
+    },
+    {
+      "move": "PSYCHO_CUT",
+      "power": 70,
+      "avg_level": 22.1
+    }
+  ],
+  "DRAGON": [
+    {
+      "move": "DRAGON_RAGE",
+      "power": 40,
+      "avg_level": null
+    },
+    {
+      "move": "OUTRAGE",
+      "power": 90,
+      "avg_level": 59.25806451612903
+    },
+    {
+      "move": "DRAGONBREATH",
+      "power": 60,
+      "avg_level": 9.75609756097561
+    },
+    {
+      "move": "TWISTER",
+      "power": 40,
+      "avg_level": 6.733333333333333
+    },
+    {
+      "move": "DRAGON_PULSE",
+      "power": 90,
+      "avg_level": 31.26829268292683
+    },
+    {
+      "move": "DRAGON_CLAW",
+      "power": 80,
+      "avg_level": 31.153846153846153
+    },
+    {
+      "move": "DRAGON_ENERGY",
+      "power": 150,
+      "avg_level": 66.0
+    }
+  ],
+  "ROCK": [
+    {
+      "move": "ROCK_THROW",
+      "power": 50,
+      "avg_level": 5.838709677419355
+    },
+    {
+      "move": "ROCK_SLIDE",
+      "power": 75,
+      "avg_level": 24.916666666666668
+    },
+    {
+      "move": "SANDSTORM",
+      "power": 0,
+      "avg_level": 40.83783783783784
+    },
+    {
+      "move": "ROLLOUT",
+      "power": 30,
+      "avg_level": 10.488372093023257
+    },
+    {
+      "move": "ANCIENTPOWER",
+      "power": 60,
+      "avg_level": 16.5974025974026
+    },
+    {
+      "move": "POWER_GEM",
+      "power": 80,
+      "avg_level": 29.862068965517242
+    },
+    {
+      "move": "HEAD_SMASH",
+      "power": 150,
+      "avg_level": 50.642857142857146
+    }
+  ],
+  "GHOST": [
+    {
+      "move": "NIGHT_SHADE",
+      "power": 1,
+      "avg_level": 14.903225806451612
+    },
+    {
+      "move": "CONFUSE_RAY",
+      "power": 0,
+      "avg_level": 13.203389830508474
+    },
+    {
+      "move": "LICK",
+      "power": 20,
+      "avg_level": 3.7241379310344827
+    },
+    {
+      "move": "NIGHTMARE",
+      "power": 0,
+      "avg_level": 19.5
+    },
+    {
+      "move": "SPITE",
+      "power": 0,
+      "avg_level": 11.466666666666667
+    },
+    {
+      "move": "DESTINY_BOND",
+      "power": 0,
+      "avg_level": 41.333333333333336
+    },
+    {
+      "move": "SHADOW_BALL",
+      "power": 80,
+      "avg_level": 38.10526315789474
+    },
+    {
+      "move": "ASTONISH",
+      "power": 30,
+      "avg_level": 1.9666666666666666
+    },
+    {
+      "move": "SHADOW_CLAW",
+      "power": 70,
+      "avg_level": 14.0
+    }
+  ],
+  "CURSE_T": [
+    {
+      "move": "CURSE",
+      "power": 0,
+      "avg_level": 27.25
+    }
+  ],
+  "STEEL": [
+    {
+      "move": "STEEL_WING",
+      "power": 70,
+      "avg_level": 29.166666666666668
+    },
+    {
+      "move": "IRON_TAIL",
+      "power": 100,
+      "avg_level": 54.666666666666664
+    },
+    {
+      "move": "METAL_CLAW",
+      "power": 50,
+      "avg_level": 6.238095238095238
+    },
+    {
+      "move": "BULLET_PUNCH",
+      "power": 40,
+      "avg_level": 0.8333333333333334
+    },
+    {
+      "move": "IRON_DEFENSE",
+      "power": 0,
+      "avg_level": 28.25
+    },
+    {
+      "move": "FLASH_CANNON",
+      "power": 80,
+      "avg_level": 30.166666666666668
+    },
+    {
+      "move": "METEOR_MASH",
+      "power": 90,
+      "avg_level": 38.666666666666664
+    },
+    {
+      "move": "IRON_HEAD",
+      "power": 80,
+      "avg_level": 34.05882352941177
+    }
+  ],
+  "FAIRY": [
+    {
+      "move": "PLAY_ROUGH",
+      "power": 90,
+      "avg_level": 39.54054054054054
+    },
+    {
+      "move": "DAZZLING_GLEAM",
+      "power": 80,
+      "avg_level": 29.285714285714285
+    },
+    {
+      "move": "DRAINING_KISS",
+      "power": 50,
+      "avg_level": 14.714285714285714
+    },
+    {
+      "move": "FAIRY_WIND",
+      "power": 40,
+      "avg_level": 4.1
+    },
+    {
+      "move": "LIGHT_OF_RUIN",
+      "power": 140,
+      "avg_level": null
+    }
+  ]
+}

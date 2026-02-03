@@ -447,7 +447,6 @@
         <!-- Tabs -->
         <div class="tabs">
             <button class="tab-button active" onclick="switchTab('create')">Create Pokémon</button>
-            <button class="tab-button" onclick="switchTab('sprite')">Generate Sprite</button>
         </div>
         
         <!-- Tab 1: Create Pokémon -->
@@ -460,194 +459,104 @@
             </div>
             
             <form onsubmit="createPokemon(event)">
-                <!-- Name and Dex -->
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="name">Pokémon Name *</label>
-                        <input type="text" id="name" name="name" required placeholder="e.g., Flamewing">
-                    </div>
-                    <div class="form-group">
-                        <label for="dex">Pokédex Number *</label>
-                        <input type="number" id="dex" name="dex" required value="888" min="1" max="9999">
-                    </div>
-                </div>
-                
-                <!-- Types -->
-                <div class="form-group">
-                    <label>Primary Type *</label>
-                    <div class="type-selector" id="type1-selector"></div>
-                    <input type="hidden" id="type1" name="type1" value="NORMAL" required>
-                </div>
-                
-                <div class="form-group">
-                    <label>Secondary Type (Optional)</label>
-                    <div class="type-selector" id="type2-selector"></div>
-                    <input type="hidden" id="type2" name="type2" value="">
-                </div>
-                
-                <!-- Stats -->
-                <div class="form-group">
-                    <label>Base Stats</label>
-                    <div class="stat-row">
-                        <div class="stat-group">
-                            <label for="hp">HP</label>
-                            <input type="number" id="hp" name="hp" value="45" min="1" max="255">
-                            <div class="stat-value" id="hp-value">45</div>
-                        </div>
-                        <div class="stat-group">
-                            <label for="attack">ATK</label>
-                            <input type="number" id="attack" name="attack" value="49" min="1" max="255">
-                            <div class="stat-value" id="attack-value">49</div>
-                        </div>
-                        <div class="stat-group">
-                            <label for="defense">DEF</label>
-                            <input type="number" id="defense" name="defense" value="49" min="1" max="255">
-                            <div class="stat-value" id="defense-value">49</div>
-                        </div>
-                        <div class="stat-group">
-                            <label for="sp_atk">SpA</label>
-                            <input type="number" id="sp_atk" name="sp_atk" value="65" min="1" max="255">
-                            <div class="stat-value" id="sp_atk-value">65</div>
-                        </div>
-                        <div class="stat-group">
-                            <label for="sp_def">SpD</label>
-                            <input type="number" id="sp_def" name="sp_def" value="65" min="1" max="255">
-                            <div class="stat-value" id="sp_def-value">65</div>
-                        </div>
-                        <div class="stat-group">
-                            <label for="speed">SPE</label>
-                            <input type="number" id="speed" name="speed" value="45" min="1" max="255">
-                            <div class="stat-value" id="speed-value">45</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Abilities -->
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="ability1">Primary Ability</label>
-                        <input type="text" id="ability1" name="ability1" value="STATIC" placeholder="e.g., STATIC">
-                    </div>
-                    <div class="form-group">
-                        <label for="ability2">Secondary Ability (Optional)</label>
-                        <input type="text" id="ability2" name="ability2" placeholder="e.g., VOLT_ABSORB">
-                    </div>
-                </div>
-                
-                <!-- Gender and Template -->
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="gender">Gender Ratio</label>
-                        <div class="slider-container">
-                            <input type="range" id="gender" name="gender" min="0" max="100" value="50">
-                            <div class="slider-value"><span id="gender-text">50</span>% ♀</div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="template">Sprite Template (Optional)</label>
-                        <input type="text" id="template" name="template" placeholder="e.g., pikachu">
-                    </div>
-                </div>
-                
-                <!-- Submit -->
-                <div class="button-group">
-                    <button type="submit" id="create-btn">✓ Create Pokémon</button>
-                    <button type="reset" class="secondary-button">↺ Clear</button>
-                </div>
-            </form>
+    <!-- Strength Preset -->
+    <div class="form-group">
+        <label for="strength">Strength Preset</label>
+        <select id="strength" name="strength">
+            <option value="strong">Strong</option>
+            <option value="medium">Medium</option>
+            <option value="weak">Weak</option>
+        </select>
+        <small style="color:#666;">Choose a preset to auto-randomize stats.</small>
+    </div>
+    <!-- Sprite Prompt (AI Generation) -->
+    <div class="form-group">
+        <label for="sprite-prompt">Sprite Description (AI Prompt)</label>
+        <textarea id="sprite-prompt" name="sprite_prompt" placeholder="Describe your Pokémon: e.g., red fire-type dragon with golden wings"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="sprite-steps">Quality (Inference Steps)</label>
+        <div class="slider-container">
+            <input type="range" id="sprite-steps" name="sprite_steps" min="10" max="50" value="20">
+            <div class="slider-value"><span id="steps-text">20</span> steps</div>
+        </div>
+        <div class="info-box" style="margin-top: 10px; border-left-color: #666;">
+            More steps = better quality but slower. 20 is recommended for quick results.
+        </div>
+    </div>
+    <!-- Name and Dex -->
+    <div class="form-row">
+        <div class="form-group">
+            <label for="name">Pokémon Name *</label>
+            <input type="text" id="name" name="name" required placeholder="e.g., Flamewing">
+        </div>
+        <div class="form-group">
+            <label for="dex">Pokédex Number</label>
+            <input type="number" id="dex" name="dex" value="" min="1" max="9999" placeholder="Leave blank for auto">
+            <small style="color:#666;">Leave blank to auto-assign the next available number.</small>
+        </div>
+    </div>
+    <!-- Type -->
+    <div class="form-group">
+        <label for="type1">Type *</label>
+        <select id="type1" name="type1" required>
+            <option value="NORMAL">NORMAL</option>
+            <option value="FIRE">FIRE</option>
+            <option value="WATER">WATER</option>
+            <option value="GRASS">GRASS</option>
+            <option value="ELECTRIC">ELECTRIC</option>
+            <option value="ICE">ICE</option>
+            <option value="FIGHTING">FIGHTING</option>
+            <option value="POISON">POISON</option>
+            <option value="GROUND">GROUND</option>
+            <option value="FLYING">FLYING</option>
+            <option value="PSYCHIC">PSYCHIC</option>
+            <option value="BUG">BUG</option>
+            <option value="ROCK">ROCK</option>
+            <option value="GHOST">GHOST</option>
+            <option value="DRAGON">DRAGON</option>
+            <option value="DARK">DARK</option>
+            <option value="STEEL">STEEL</option>
+            <option value="FAIRY">FAIRY</option>
+        </select>
+    </div>
+    <!-- Stats (hidden, auto-set by strength) -->
+    <div style="display:none;">
+        <input type="number" id="hp" name="hp" value="45">
+        <input type="number" id="attack" name="attack" value="49">
+        <input type="number" id="defense" name="defense" value="49">
+        <input type="number" id="sp_atk" name="sp_atk" value="65">
+        <input type="number" id="sp_def" name="sp_def" value="65">
+        <input type="number" id="speed" name="speed" value="45">
+    </div>
+    <!-- Gender and Template -->
+    <div class="form-group">
+        <label for="gender">Gender Ratio</label>
+        <div class="slider-container">
+            <input type="range" id="gender" name="gender" min="0" max="100" value="50">
+            <div class="slider-value"><span id="gender-text">50</span>% ♀</div>
+        </div>
+    </div>
+    <!-- Submit -->
+    <div class="button-group">
+        <button type="submit" id="create-btn">✓ Create Pokémon</button>
+        <button type="reset" class="secondary-button">↺ Clear</button>
+    </div>
+</form>
             
             <div id="loading-create" class="loading">
                 <div class="spinner"></div>
                 <p>Creating your Pokémon...</p>
             </div>
-        </div>
-        
-        <!-- Tab 2: Generate Sprite -->
-        <div id="sprite" class="tab-content">
-            <div id="message-sprite" class="message"></div>
-            
-            <div class="info-box">
-                <strong>🎨 AI Sprite Generation:</strong> Describe the Pokémon you want and let AI generate a sprite!
-                Examples: "red fire dragon", "blue water penguin", "purple ghost type"
-            </div>
-            
-            <form onsubmit="generateSprite(event)">
-                <div class="form-group">
-                    <label for="sprite-prompt">Sprite Description *</label>
-                    <textarea id="sprite-prompt" name="prompt" required 
-                              placeholder="Describe your Pokémon: e.g., red fire-type dragon with golden wings"></textarea>
-                </div>
-                
-                <div class="form-group">
-                    <label for="sprite-steps">Quality (Inference Steps)</label>
-                    <div class="slider-container">
-                        <input type="range" id="sprite-steps" name="steps" min="10" max="50" value="20">
-                        <div class="slider-value"><span id="steps-text">20</span> steps</div>
-                    </div>
-                    <div class="info-box" style="margin-top: 10px; border-left-color: #666;">
-                        More steps = better quality but slower. 20 is recommended for quick results.
-                    </div>
-                </div>
-                
-                <div class="button-group">
-                    <button type="submit" id="sprite-btn">✨ Generate Sprite</button>
-                    <button type="reset" class="secondary-button">↺ Clear</button>
-                </div>
-            </form>
-            
-            <div id="loading-sprite" class="loading">
-                <div class="spinner"></div>
-                <p>Generating sprite (this may take a minute)...</p>
-                <div class="progress-container" id="progress-container">
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="progress-fill">0%</div>
-                    </div>
-                    <div class="progress-text" id="progress-text">Starting generation...</div>
-                </div>
-            </div>
-            
+            <div id="moveset-result" class="info-box" style="display:none; margin-top:20px;"></div>
             <div id="sprite-preview" class="sprite-preview"></div>
         </div>
+        
+        <!-- Removed separate Generate Sprite tab and form for cleaner UI -->
     </div>
     
     <script>
-        const TYPES = [
-            'NORMAL', 'FIRE', 'WATER', 'GRASS', 'ELECTRIC',
-            'ICE', 'FIGHTING', 'POISON', 'GROUND', 'FLYING',
-            'PSYCHIC', 'BUG', 'ROCK', 'GHOST', 'DRAGON',
-            'DARK', 'STEEL', 'FAIRY'
-        ];
-        
-        // Initialize type selectors
-        function initTypeSelectors() {
-            const type1Sel = document.getElementById('type1-selector');
-            const type2Sel = document.getElementById('type2-selector');
-            
-            TYPES.forEach(type => {
-                const btn1 = document.createElement('button');
-                btn1.type = 'button';
-                btn1.className = 'type-button';
-                if (type === 'NORMAL') btn1.classList.add('selected');
-                btn1.textContent = type;
-                btn1.onclick = () => selectType('type1', type, type1Sel);
-                type1Sel.appendChild(btn1);
-                
-                const btn2 = document.createElement('button');
-                btn2.type = 'button';
-                btn2.className = 'type-button';
-                btn2.textContent = type;
-                btn2.onclick = () => selectType('type2', type, type2Sel);
-                type2Sel.appendChild(btn2);
-            });
-        }
-        
-        function selectType(fieldId, type, selector) {
-            document.getElementById(fieldId).value = type;
-            selector.querySelectorAll('.type-button').forEach(btn => {
-                btn.classList.remove('selected');
-                if (btn.textContent === type) btn.classList.add('selected');
-            });
-        }
+        // Type selection now uses a dropdown, no JS needed
         
         // Tab switching
         function switchTab(tabName) {
@@ -685,106 +594,95 @@
         // Create Pokémon
         async function createPokemon(event) {
             event.preventDefault();
-            
             const btn = document.getElementById('create-btn');
             const loading = document.getElementById('loading-create');
-            
             btn.disabled = true;
             loading.style.display = 'block';
-            
             try {
+                const dexVal = document.getElementById('dex').value;
+                const spritePrompt = document.getElementById('sprite-prompt').value;
+                const spriteSteps = document.getElementById('sprite-steps').value;
+                const type1 = document.getElementById('type1').value;
+                // Meta text for each type
+                const TYPE_META = {
+                    NORMAL: 'white, grey, clean',
+                    FIRE: 'fire, red, orange, hot',
+                    WATER: 'water, blue, aquatic, wet',
+                    GRASS: 'grass, green, leafy, nature',
+                    ELECTRIC: 'electric, yellow, lightning, energy',
+                    ICE: 'ice, blue, white, cold',
+                    FIGHTING: 'fighting, strong, tough, brawler',
+                    POISON: 'poison, purple, toxic, venom',
+                    GROUND: 'ground, brown, earth, rugged',
+                    FLYING: 'flying, sky, wings, air',
+                    PSYCHIC: 'psychic, pink, mind, mystical',
+                    BUG: 'bug, green, insect, small',
+                    ROCK: 'rock, gray, stone, hard',
+                    GHOST: 'ghost, purple, ethereal, spooky',
+                    DRAGON: 'dragon, majestic, scales, mythical',
+                    DARK: 'dark, black, shadow, mysterious',
+                    STEEL: 'steel, gray, metallic, armor',
+                    FAIRY: 'fairy, pink, magical, cute'
+                };
+                let meta = TYPE_META[type1] ? ' ' + TYPE_META[type1] : '';
                 const formData = {
                     name: document.getElementById('name').value,
-                    dex: document.getElementById('dex').value,
-                    type1: document.getElementById('type1').value,
-                    type2: document.getElementById('type2').value || undefined,
+                    dex: dexVal === '' ? null : dexVal,
+                    type1: type1,
                     hp: document.getElementById('hp').value,
                     attack: document.getElementById('attack').value,
                     defense: document.getElementById('defense').value,
                     sp_atk: document.getElementById('sp_atk').value,
                     sp_def: document.getElementById('sp_def').value,
                     speed: document.getElementById('speed').value,
-                    ability1: document.getElementById('ability1').value,
-                    ability2: document.getElementById('ability2').value || undefined,
                     gender: document.getElementById('gender').value,
-                    template: document.getElementById('template').value || undefined
+                    // template: document.getElementById('template').value || undefined,
+                    sprite_prompt: spritePrompt + meta,
+                    sprite_steps: spriteSteps
                 };
-                
                 const response = await fetch('/api/create', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)
                 });
-                
                 const result = await response.json();
-                
+                const movesetDiv = document.getElementById('moveset-result');
                 if (result.success) {
-                    showMessage('create', '✓ ' + result.message, 'success');
+                    let msg = '✓ ' + result.message;
+                    if (result.pokemon && result.pokemon.dex) {
+                        msg += ` (Assigned Dex #: <b>${result.pokemon.dex}</b>)`;
+                    }
+                    showMessage('create', msg, 'success');
+                    // Show moveset if present
+                    if (result.pokemon && result.pokemon.moveset && result.pokemon.moveset.length > 0) {
+                        let html = `<strong>Generated Moveset:</strong><ul style='margin-top:8px;'>`;
+                        for (const move of result.pokemon.moveset) {
+                            html += `<li>Lv. ${move.level}: <b>${move.move}</b></li>`;
+                        }
+                        html += '</ul>';
+                        movesetDiv.innerHTML = html;
+                        movesetDiv.style.display = 'block';
+                    } else {
+                        movesetDiv.style.display = 'none';
+                    }
+                    // Show sprite preview if present
+                    const spriteDiv = document.getElementById('sprite-preview');
+                    if (result.pokemon && result.pokemon.sprite) {
+                        spriteDiv.innerHTML = `<img src="${result.pokemon.sprite}" alt="Generated Sprite" style="max-width:96px;max-height:96px;">`;
+                        spriteDiv.style.display = 'block';
+                    } else {
+                        spriteDiv.innerHTML = '';
+                        spriteDiv.style.display = 'none';
+                    }
                     document.querySelector('#create form').reset();
                     document.getElementById('type1').value = 'NORMAL';
-                    document.querySelectorAll('#type1-selector .type-button')[0].classList.add('selected');
                 } else {
                     showMessage('create', '✗ Error: ' + (result.error || 'Failed to create Pokémon'), 'error');
+                    movesetDiv.style.display = 'none';
+                    document.getElementById('sprite-preview').style.display = 'none';
                 }
             } catch (error) {
                 showMessage('create', '✗ Error: ' + error.message, 'error');
-            } finally {
-                btn.disabled = false;
-                loading.style.display = 'none';
-            }
-        }
-        
-        // Generate Sprite
-        async function generateSprite(event) {
-            event.preventDefault();
-            
-            const btn = document.getElementById('sprite-btn');
-            const loading = document.getElementById('loading-sprite');
-            const preview = document.getElementById('sprite-preview');
-            const progressContainer = document.getElementById('progress-container');
-            const progressFill = document.getElementById('progress-fill');
-            const progressText = document.getElementById('progress-text');
-            
-            btn.disabled = true;
-            loading.style.display = 'block';
-            progressContainer.style.display = 'none';
-            preview.innerHTML = '';
-            
-            try {
-                const formData = {
-                    prompt: document.getElementById('sprite-prompt').value,
-                    steps: document.getElementById('sprite-steps').value
-                };
-                
-                const startTime = Date.now();
-                const response = await fetch('/api/generate-sprite', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(formData)
-                });
-                const elapsedTime = ((Date.now() - startTime) / 1000).toFixed(1);
-                
-                // Show progress bar briefly
-                progressContainer.style.display = 'block';
-                progressFill.style.width = '100%';
-                progressFill.textContent = '100%';
-                progressText.textContent = `Generated in ${elapsedTime}s`;
-                
-                const result = await response.json();
-                
-                if (result.success) {
-                    showMessage('sprite', '✓ ' + result.message, 'success');
-                    preview.innerHTML = `
-                        <img src="${result.image}" alt="Generated Sprite">
-                        <div class="sprite-actions">
-                            <button type="button" onclick="downloadSprite('${result.image}')">⬇ Download</button>
-                        </div>
-                    `;
-                } else {
-                    showMessage('sprite', '✗ Error: ' + (result.error || 'Failed to generate sprite'), 'error');
-                }
-            } catch (error) {
-                showMessage('sprite', '✗ Error: ' + error.message, 'error');
             } finally {
                 btn.disabled = false;
                 loading.style.display = 'none';
@@ -800,7 +698,28 @@
         }
         
         // Initialize on load
-        window.addEventListener('load', initTypeSelectors);
+        function initTypeSelectors() {
+            // No-op for now — type uses dropdown in this UI.
+        }
+        document.addEventListener('DOMContentLoaded', initTypeSelectors);
+            // Stat ranges for presets
+            const STAT_PRESETS = {
+                strong: {min: 90, max: 130},
+                medium: {min: 60, max: 89},
+                weak: {min: 30, max: 59}
+            };
+            // Randomize stats based on preset
+            function randomizeStats(strength) {
+                if (!STAT_PRESETS[strength]) return;
+                const {min, max} = STAT_PRESETS[strength];
+                ['hp', 'attack', 'defense', 'sp_atk', 'sp_def', 'speed'].forEach(stat => {
+                    const val = Math.floor(Math.random() * (max - min + 1)) + min;
+                    document.getElementById(stat).value = val;
+                });
+            }
+            document.getElementById('strength').addEventListener('change', function(e) {
+                if (e.target.value) randomizeStats(e.target.value);
+            });
     </script>
 </body>
 </html>

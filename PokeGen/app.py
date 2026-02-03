@@ -4,6 +4,7 @@ PokeGen Web Application
 Web UI for creating custom Pokémon mods for PokeWilds
 """
 
+import traceback
 from flask import Flask, render_template, request, jsonify, send_from_directory
 from pathlib import Path
 import secrets
@@ -11,7 +12,6 @@ import json
 import base64
 import io
 import sys
-import traceback
 from pokemon_mod_generator import PokemonModGenerator, PokemonStats
 
 app = Flask(__name__)
@@ -26,10 +26,22 @@ def get_generator():
     """Get or create mod generator"""
     global generator
     if generator is None:
-        # Find mods directory relative to app.py location
+        # Prefer an existing mods directory in known locations.
         app_dir = Path(__file__).parent
-        mods_dir = app_dir.parent / "mods"
-        mods_dir.mkdir(parents=True, exist_ok=True)
+        candidates = [
+            app_dir.parent / "mods",  # ../mods (workspace root)
+            Path.home() / "Documents" / "pokewilds" / "mods",  # ~/Documents/pokewilds/mods
+            Path.home() / "pokewilds" / "mods",  # ~/pokewilds/mods
+        ]
+        mods_dir = None
+        for c in candidates:
+            if c.exists():
+                mods_dir = c
+                break
+        if mods_dir is None:
+            # fallback to workspace-relative ../mods
+            mods_dir = app_dir.parent / "mods"
+            mods_dir.mkdir(parents=True, exist_ok=True)
         generator = PokemonModGenerator(mods_dir)
     return generator
 
@@ -65,20 +77,26 @@ def create_pokemon():
     """Create a new Pokémon mod"""
     try:
         data = request.json
-        
+        print("[DEBUG] Incoming /api/create data:", data)
+
         # Validate required fields
         required = ['name', 'dex', 'type1']
         for field in required:
             if field not in data:
+                print(f"[ERROR] Missing field: {field}")
                 return jsonify({'success': False, 'error': f'Missing field: {field}'}), 400
-        
-        # Get parameters
+
+        # Parse parameters
         name = data['name'].strip()
-        dex = int(data['dex'])
+        # dex may be null/empty to auto-assign
+        dex_raw = data.get('dex')
+        if dex_raw is None or dex_raw == '':
+            dex = None
+        else:
+            dex = int(dex_raw)
         type1 = data['type1'].upper()
         type2 = data.get('type2', '').upper() or None
-        
-        # Stats
+
         stats = PokemonStats(
             hp=int(data.get('hp', 45)),
             attack=int(data.get('attack', 49)),
@@ -87,124 +105,82 @@ def create_pokemon():
             sp_def=int(data.get('sp_def', 65)),
             speed=int(data.get('speed', 45))
         )
-        
-        # Abilities and other stats
+
         ability1 = data.get('ability1', 'STATIC').upper()
         ability2 = data.get('ability2', '').upper() or None
         gender = int(data.get('gender', 50))
         template = data.get('template', '').lower() or None
-        
-        # Generate
+
         gen = get_generator()
-        success = gen.create_pokemon(
-            name=name,
-            dex_number=dex,
-            type1=type1,
-            type2=type2,
-            stats=stats,
-            ability1=ability1,
-            ability2=ability2,
-            gender_ratio=gender,
-            template_pokemon=template
-        )
-        
+        # Generate moveset
+        moveset = gen.pick_moveset(type1, type2, stats)
+
+        # Create mod files (this will also attempt AI sprite generation if available)
+        try:
+            success = gen.create_pokemon(
+                name=name,
+                dex_number=dex,
+                type1=type1,
+                type2=type2,
+                stats=stats,
+                ability1=ability1,
+                ability2=ability2,
+                gender_ratio=gender,
+                template_pokemon=template,
+                sprite_prompt=data.get('sprite_prompt'),
+                sprite_steps=int(data.get('sprite_steps')) if data.get('sprite_steps') is not None else None
+            )
+        except Exception as e:
+            print(f"[ERROR] Exception in create_pokemon: {e}")
+            traceback.print_exc()
+            return jsonify({'success': False, 'error': f'Exception in create_pokemon: {e}'}), 500
+
+        # Ensure sprite saved and create preview
+        sprite_b64 = None
         if success:
+            try:
+                sprite_gen = get_sprite_generator()
+                if sprite_gen is not None:
+                    prompt = data.get('sprite_prompt') or f"{name} {type1.lower()} pokemon"
+                    steps = int(data.get('sprite_steps', 20))
+                    mod_dir = gen.output_dir / name / "graphics"
+                    sprite_path = mod_dir / "front.png"
+                    # Regenerate or overwrite front sprite to ensure prompt applied
+                    sprite_gen.generate_and_save(prompt=prompt, output_path=sprite_path, num_inference_steps=steps)
+                    preview_path = mod_dir / "front_96.png"
+                    if preview_path.exists():
+                        with open(preview_path, 'rb') as f:
+                            sprite_b64 = 'data:image/png;base64,' + base64.b64encode(f.read()).decode('utf-8')
+            except Exception as e:
+                print(f"[ERROR] Sprite generation/preview failed: {e}")
+                traceback.print_exc()
+
+        if success:
+            assigned_dex = getattr(gen, 'last_dex_number', dex)
+            print(f"[DEBUG] Successfully created Pokémon: {name} (#{assigned_dex})")
             return jsonify({
                 'success': True,
-                'message': f'Created Pokémon: {name} (#{dex})',
+                'message': f'Created Pokémon: {name} (#{assigned_dex})',
                 'pokemon': {
                     'name': name,
-                    'dex': dex,
+                    'dex': assigned_dex,
                     'type1': type1,
                     'type2': type2,
-                    'types': f"{type1}" + (f"/{type2}" if type2 else "")
+                    'types': f"{type1}" + (f"/{type2}" if type2 else ""),
+                    'moveset': [ {'level': lvl, 'move': move} for lvl, move in moveset ],
+                    'sprite': sprite_b64
                 }
             })
         else:
+            print(f"[ERROR] Failed to create Pokémon: {name}")
             return jsonify({'success': False, 'error': 'Failed to create Pokémon'}), 500
-    
+
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"[ERROR] Unhandled exception in /api/create: {e}")
         traceback.print_exc()
         return jsonify({'success': False, 'error': str(e)}), 500
 
-
-@app.route('/api/generate-sprite', methods=['POST'])
-def generate_sprite():
-    """Generate a Pokémon sprite from text description"""
-    try:
-        data = request.json
         
-        if 'prompt' not in data:
-            return jsonify({'success': False, 'error': 'Missing prompt'}), 400
-        
-        prompt = data['prompt'].strip()
-        if not prompt:
-            return jsonify({'success': False, 'error': 'Prompt cannot be empty'}), 400
-        
-        # Get generator
-        gen = get_sprite_generator()
-        if gen is None:
-            return jsonify({
-                'success': False,
-                'error': 'Sprite generator not available. Install dependencies: pip install -r requirements.txt'
-            }), 503
-        
-        # Generate parameters
-        steps = int(data.get('steps', 20))
-        steps = min(50, max(10, steps))  # Clamp to 10-50
-        
-        seed = data.get('seed')
-        if seed:
-            seed = int(seed)
-        
-        print(f"Generating sprite from prompt: {prompt}")
-
-        # Prepare save directory and random name
-        app_dir = Path(__file__).parent
-        save_dir = app_dir / "generated_sprites"
-        save_dir.mkdir(parents=True, exist_ok=True)
-
-        name = secrets.token_hex(3)  # 6-hex characters
-        output_path = save_dir / f"{name}.png"
-
-        # Generate and save both high-res and downscaled images
-        success = gen.generate_and_save(
-            prompt=prompt,
-            output_path=output_path,
-            num_inference_steps=steps,
-            seed=seed
-        )
-
-        if not success:
-            return jsonify({'success': False, 'error': 'Failed to generate and save sprite'}), 500
-
-        high_path = save_dir / f"{name}_512.png"
-        low_path = save_dir / f"{name}_96.png"
-
-        # Read low-res image for immediate preview (base64)
-        try:
-            with low_path.open('rb') as f:
-                data = f.read()
-            image_base64 = base64.b64encode(data).decode('utf-8')
-        except Exception:
-            image_base64 = None
-
-        return jsonify({
-            'success': True,
-            'name': name,
-            'saved_paths': {
-                'high': str(high_path),
-                'low': str(low_path)
-            },
-            'image': f'data:image/png;base64,{image_base64}' if image_base64 else None,
-            'message': f'Generated and saved sprite: {name}'
-        })
-    
-    except Exception as e:
-        print(f"Error generating sprite: {e}")
-        traceback.print_exc()
-        return jsonify({'success': False, 'error': str(e)}), 500
 
 
 @app.route('/api/sprite-available', methods=['GET'])

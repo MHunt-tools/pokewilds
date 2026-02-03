@@ -1,0 +1,2306 @@
+[
+  {
+    "move": "ABSORB",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ACID_ARMOR",
+    "type": "POISON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ACUPRESSURE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AERIAL_ACE",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AFTER_YOU",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AGILITY",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AIR_CUTTER",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AIR_SLASH",
+    "type": "FLYING",
+    "power": 70,
+    "avg_level": 20
+  },
+  {
+    "move": "AMNESIA",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ANCIENTPOWER",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ANCIENT_POWER",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AQUA_JET",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AQUA_RING",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AQUA_TAIL",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ARM_THRUST",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AROMATHERAPY",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AROMATIC_MIST",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ASSURANCE",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ASTONISH",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ATTACK_ORDER",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ATTRACT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AURORA_BEAM",
+    "type": "ICE",
+    "power": 90,
+    "avg_level": 36
+  },
+  {
+    "move": "AURORA_VEIL",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AUTOTOMIZE",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "AVALANCHE",
+    "type": "ICE",
+    "power": 60,
+    "avg_level": 25
+  },
+  {
+    "move": "BABY_DOLL_EYES",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BATON_PASS",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BELLY_DRUM",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BIND",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BITE",
+    "type": "DARK",
+    "power": 60,
+    "avg_level": 15
+  },
+  {
+    "move": "BLIZZARD",
+    "type": "ICE",
+    "power": 110,
+    "avg_level": 50
+  },
+  {
+    "move": "BLOCK",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BODY_PRESS",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BODY_SLAM",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BOOMBURST",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BOUNCE",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BRAVE_BIRD",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BREAKING_SWIPE",
+    "type": "DRAGON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BRINE",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BRUTAL_SWING",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BUBBLE",
+    "type": "WATER",
+    "power": 40,
+    "avg_level": 5
+  },
+  {
+    "move": "BUBBLEBEAM",
+    "type": "WATER",
+    "power": 90,
+    "avg_level": 36
+  },
+  {
+    "move": "BUBBLE_BEAM",
+    "type": "WATER",
+    "power": 90,
+    "avg_level": 36
+  },
+  {
+    "move": "BUG_BITE",
+    "type": "BUG",
+    "power": 60,
+    "avg_level": 20
+  },
+  {
+    "move": "BUG_BUZZ",
+    "type": "BUG",
+    "power": 90,
+    "avg_level": 40
+  },
+  {
+    "move": "BULLDOZE",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "BULLET_SEED",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CALM_MIND",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CAPTIVATE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CHARGE_BEAM",
+    "type": "ELECTRIC",
+    "power": 90,
+    "avg_level": 36
+  },
+  {
+    "move": "CHARM",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CHIP_AWAY",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CLOSE_COMBAT",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CONFUSE_RAY",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CONFUSION",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "COPYCAT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "COSMIC_POWER",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "COTTON_GUARD",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "COTTON_SPORE",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "COUNTER",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "COVET",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CRABHAMMER",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CRAFTY_SHIELD",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CRUNCH",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "CRUSH_GRIP",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 50
+  },
+  {
+    "move": "CURSE",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DARK_PULSE",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DAZZLING_GLEAM",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DEFEND_ORDER",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DEFENSE_CURL",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DEFOG",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DESTINY_BOND",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DETECT",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DIG",
+    "type": "GROUND",
+    "power": 80,
+    "avg_level": 25
+  },
+  {
+    "move": "DISABLE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DISARMING_VOICE",
+    "type": "FAIRY",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "DISCHARGE",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DIVE",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DOOM_DESIRE",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DOUBLE_EDGE",
+    "type": "NORMAL",
+    "power": 120,
+    "avg_level": 50
+  },
+  {
+    "move": "DOUBLE_HIT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DOUBLE_KICK",
+    "type": "FIGHTING",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "DOUBLE_TEAM",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGONBREATH",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_BREATH",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_CLAW",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 30
+  },
+  {
+    "move": "DRAGON_DANCE",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_ENERGY",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_HAMMER",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_PULSE",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_RUSH",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAGON_TAIL",
+    "type": "DRAGON",
+    "power": 80,
+    "avg_level": 20
+  },
+  {
+    "move": "DRAINING_KISS",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DREAM_EATER",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DUAL_CHOP",
+    "type": "DRAGON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "DYNAMIC_PUNCH",
+    "type": "FIGHTING",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "EARTHQUAKE",
+    "type": "GROUND",
+    "power": 100,
+    "avg_level": 40
+  },
+  {
+    "move": "EARTH_POWER",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ECHOED_VOICE",
+    "type": "NORMAL",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "ELECTROWEB",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ELECTRO_BALL",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "EMBARGO",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "EMBER",
+    "type": "FIRE",
+    "power": 40,
+    "avg_level": 9
+  },
+  {
+    "move": "ENCORE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ENDEAVOR",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ENDURE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ENERGY_BALL",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ERUPTION",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "EXPLOSION",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "EXTRASENSORY",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "EXTREMESPEED",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FAIRY_WIND",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FAKE_OUT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FAKE_TEARS",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FALSE_SWIPE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FEATHER_DANCE",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FEINT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FEINT_ATTACK",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FELL_STINGER",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FIERY_DANCE",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FIRE_BLAST",
+    "type": "FIRE",
+    "power": 110,
+    "avg_level": 50
+  },
+  {
+    "move": "FIRE_FANG",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FIRE_PUNCH",
+    "type": "FIRE",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "FIRE_SPIN",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FISSURE",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FLAIL",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FLAMETHROWER",
+    "type": "FIRE",
+    "power": 90,
+    "avg_level": 36
+  },
+  {
+    "move": "FLAME_BURST",
+    "type": "FIRE",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "FLAME_CHARGE",
+    "type": "FIRE",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "FLAME_WHEEL",
+    "type": "FIRE",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "FLARE_BLITZ",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FLASH_CANNON",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FLING",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FOCUS_ENERGY",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FOCUS_PUNCH",
+    "type": "FIGHTING",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "FORCE_PALM",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FOUL_PLAY",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FURY_CUTTER",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FURY_SWIPES",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "FUTURE_SIGHT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GIGA_DRAIN",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 50
+  },
+  {
+    "move": "GIGA_IMPACT",
+    "type": "NORMAL",
+    "power": 150,
+    "avg_level": 65
+  },
+  {
+    "move": "GRAVITY",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GROWL",
+    "type": "NORMAL",
+    "power": 0,
+    "avg_level": 3
+  },
+  {
+    "move": "GROWTH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GRUDGE",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GUARD_SPLIT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GUILLOTINE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GUST",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "GYRO_BALL",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HAIL",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HAMMER_ARM",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HARDEN",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HAZE",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEADBUTT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEALING_WISH",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEAL_PULSE",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEART_STAMP",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEAT_WAVE",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEAVY_SLAM",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HELPING_HAND",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HEX",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HONE_CLAWS",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HOWL",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HURRICANE",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "HYDRO_PUMP",
+    "type": "WATER",
+    "power": 110,
+    "avg_level": 50
+  },
+  {
+    "move": "HYPER_BEAM",
+    "type": "NORMAL",
+    "power": 150,
+    "avg_level": 60
+  },
+  {
+    "move": "HYPER_VOICE",
+    "type": "NORMAL",
+    "power": 90,
+    "avg_level": 50
+  },
+  {
+    "move": "HYPNOSIS",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ICE_BEAM",
+    "type": "ICE",
+    "power": 90,
+    "avg_level": 30
+  },
+  {
+    "move": "ICE_FANG",
+    "type": "ICE",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "ICE_PUNCH",
+    "type": "ICE",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "ICE_SHARD",
+    "type": "ICE",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "ICICLE_CRASH",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ICY_WIND",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "IMPRISON",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "INCINERATE",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "INFERNO",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "INFESTATION",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "INGRAIN",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "IRON_DEFENSE",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "IRON_HEAD",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "IRON_TAIL",
+    "type": "STEEL",
+    "power": 100,
+    "avg_level": 40
+  },
+  {
+    "move": "KNOCK_OFF",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LASER_FOCUS",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LAST_RESORT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LAVA_PLUME",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LEAFAGE",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LEAF_STORM",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LEECH_LIFE",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LEECH_SEED",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LEER",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 5
+  },
+  {
+    "move": "LIFE_DEW",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LIGHT_SCREEN",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LIQUIDATION",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LOCK_ON",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "LUCKY_CHANT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MACH_PUNCH",
+    "type": "FIGHTING",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "MAGENT_RISE",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MAGNETIC_FLUX",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MAGNET_BOMB",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MAGNET_RISE",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MAGNITUDE",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MEAN_LOOK",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MEGA_DRAIN",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MEGA_PUNCH",
+    "type": "NORMAL",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "MEMENTO",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "METAL_BURST",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "METAL_CLAW",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "METAL_SOUND",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "METEOR_MASH",
+    "type": "STEEL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MIMIC",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MIND_READER",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MINIMIZE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MIRROR_COAT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MIST",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MISTY_TERRAIN",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MOONBLAST",
+    "type": "FAIRY",
+    "power": 110,
+    "avg_level": 36
+  },
+  {
+    "move": "MUDDY_WATER",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "MUD_SLAP",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "NASTY_PLOT",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "NATURE_POWER",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "NIGHT_SHADE",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "NIGHT_SLASH",
+    "type": "DARK",
+    "power": 70,
+    "avg_level": 20
+  },
+  {
+    "move": "NUZZLE",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ODOR_SLEUTH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "OMINOUS_WIND",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "OUTRAGE",
+    "type": "DRAGON",
+    "power": 120,
+    "avg_level": 55
+  },
+  {
+    "move": "OVERHEAT",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PAIN_SPLIT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PAYBACK",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PECK",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PETAL_BLIZZARD",
+    "type": "GRASS",
+    "power": 110,
+    "avg_level": 20
+  },
+  {
+    "move": "PETAL_DANCE",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PIN_MISSILE",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PLAY_NICE",
+    "type": "NORMAL",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "PLAY_ROUGH",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PLUCK",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POISON_FANG",
+    "type": "POISON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POISON_POWDER",
+    "type": "POISON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POISON_STING",
+    "type": "POISON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POLLEN_PUFF",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POUND",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POWDER_SNOW",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POWER_GEM",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POWER_SPLIT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "POWER_TRIP",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PROTECT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PSYBEAM",
+    "type": "PSYCHIC",
+    "power": 65,
+    "avg_level": 25
+  },
+  {
+    "move": "PSYCHIC",
+    "type": "PSYCHIC",
+    "power": 90,
+    "avg_level": 40
+  },
+  {
+    "move": "PSYCHIC_TERRAIN",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PSYCHO_CUT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PSYSHOCK",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "PUNISHMENT",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "QUASH",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "QUICK_ATTACK",
+    "type": "NORMAL",
+    "power": 40,
+    "avg_level": 10
+  },
+  {
+    "move": "QUICK_GUARD",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 5
+  },
+  {
+    "move": "QUIVER_DANCE",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "RAGE_POWDER",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "RAIN_DANCE",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "RAPID_SPIN",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "RAZOR_LEAF",
+    "type": "GRASS",
+    "power": 55,
+    "avg_level": 20
+  },
+  {
+    "move": "RAZOR_SHELL",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "RECOVER",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "REFLECT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "REST",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "REVENGE",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "REVERSAL",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ROAR",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ROCK_BLAST",
+    "type": "ROCK",
+    "power": 110,
+    "avg_level": 36
+  },
+  {
+    "move": "ROCK_POLISH",
+    "type": "ROCK",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "ROCK_SLIDE",
+    "type": "ROCK",
+    "power": 75,
+    "avg_level": 30
+  },
+  {
+    "move": "ROCK_SMASH",
+    "type": "FIGHTING",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "ROCK_THROW",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 10
+  },
+  {
+    "move": "ROCK_TOMB",
+    "type": "ROCK",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "ROCK_WRECKER",
+    "type": "ROCK",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "ROLLOUT",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ROOST",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ROUND",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SAFEGUARD",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SANDSTORM",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SAND_ATTACK",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SAND_TOMB",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SCARY_FACE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SCRATCH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SCREECH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SEED_BOMB",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SEISMIC_TOSS",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SHADOW_BALL",
+    "type": "GHOST",
+    "power": 80,
+    "avg_level": 30
+  },
+  {
+    "move": "SHADOW_CLAW",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SHADOW_PUNCH",
+    "type": "GHOST",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "SHADOW_SNEAK",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SHEER_COLD",
+    "type": "ICE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SHELL_SMASH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SHOCK_WAVE",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SHORE_UP",
+    "type": "GROUND",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SILVER_WIND",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SKILL_SWAP",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SKY_ATTACK",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SKY_UPPERCUT",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SLACK_OFF",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SLAM",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SLASH",
+    "type": "NORMAL",
+    "power": 70,
+    "avg_level": 20
+  },
+  {
+    "move": "SLEEP_TALK",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SMACK_DOWN",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SMELLING_SALTS",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SMOG",
+    "type": "POISON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SNARL",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SOAK",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SOLAR_BEAM",
+    "type": "GRASS",
+    "power": 120,
+    "avg_level": 45
+  },
+  {
+    "move": "SPARK",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SPIKY_SHIELD",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SPIT_UP",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SPLASH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SPORE",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "STEALTH_ROCK",
+    "type": "ROCK",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "STICKY_WEB",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "STOCKPILE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "STOMP",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "STONE_EDGE",
+    "type": "ROCK",
+    "power": 120,
+    "avg_level": 50
+  },
+  {
+    "move": "STRING_SHOT",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "STRUGGLE_BUG",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "STUN_SPORE",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SUCKER_PUNCH",
+    "type": "DARK",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "SUNNY_DAY",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SUPERPOWER",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SUPERSONIC",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWAGGER",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWALLOW",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWEET_KISS",
+    "type": "FAIRY",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWEET_SCENT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWIFT",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWITCHAROO",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWITCHEROO",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SWORDS_DANCE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "SYNTHESIS",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TACKLE",
+    "type": "NORMAL",
+    "power": 40,
+    "avg_level": 1
+  },
+  {
+    "move": "TAILWIND",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TAIL_WHIP",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 5
+  },
+  {
+    "move": "TAKE_DOWN",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TAUNT",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TEETER_DANCE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TELEPORT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "THIEF",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "THRASH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "THUNDER",
+    "type": "ELECTRIC",
+    "power": 110,
+    "avg_level": 50
+  },
+  {
+    "move": "THUNDERBOLT",
+    "type": "ELECTRIC",
+    "power": 90,
+    "avg_level": 36
+  },
+  {
+    "move": "THUNDERSHOCK",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "THUNDER_CAGE",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "THUNDER_FANG",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "THUNDER_PUNCH",
+    "type": "ELECTRIC",
+    "power": 75,
+    "avg_level": 20
+  },
+  {
+    "move": "THUNDER_SHOCK",
+    "type": "ELECTRIC",
+    "power": 40,
+    "avg_level": 5
+  },
+  {
+    "move": "THUNDER_WAVE",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TICKLE",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TORMENT",
+    "type": "DARK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TOXIC",
+    "type": "POISON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TRICK",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TRICK_OR_TREAT",
+    "type": "GHOST",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TRI_ATTACK",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "TWISTER",
+    "type": "DRAGON",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "UPROAR",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "U_TURN",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "VICE_GRIP",
+    "type": "NORMAL",
+    "power": 90,
+    "avg_level": 20
+  },
+  {
+    "move": "VITAL_THROW",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WAKE_UP_SLAP",
+    "type": "FIGHTING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WATER_GUN",
+    "type": "WATER",
+    "power": 40,
+    "avg_level": 7
+  },
+  {
+    "move": "WATER_PULSE",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WATER_SPORT",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WEATHER_BALL",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WHIRLPOOL",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WHIRLWIND",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WIDE_GUARD",
+    "type": "ROCK",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WILL_O_WISP",
+    "type": "FIRE",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WING_ATTACK",
+    "type": "FLYING",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WISH",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WITHDRAW",
+    "type": "WATER",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WONDER_ROOM",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WOOD_HAMMER",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WORK_UP",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "WORRY_SEED",
+    "type": "GRASS",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "X_SCISSOR",
+    "type": "BUG",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "YAWN",
+    "type": "NORMAL",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ZAP_CANNON",
+    "type": "ELECTRIC",
+    "power": 50,
+    "avg_level": 20
+  },
+  {
+    "move": "ZEN_HEADBUTT",
+    "type": "PSYCHIC",
+    "power": 50,
+    "avg_level": 20
+  }
+]

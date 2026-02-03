@@ -53,4 +53,26 @@ echo "Press Ctrl+C to stop"
 echo "=========================================="
 echo ""
 
-$PYTHON app.py
+# Allow overriding host/port via env vars (defaults: localhost:5000)
+PORT="${PORT:-5000}"
+HOST="${HOST:-localhost}"
+
+echo "Starting on http://${HOST}:${PORT}"
+
+# Start the app as a child process and trap signals so the child is killed
+# when this script exits or is interrupted. This ensures the port is freed.
+echo "$PYTHON"
+
+$PYTHON - <<PYTHON &
+from app import app
+# Run without the reloader so the parent process isn't replaced (avoids
+# the reloader spawning a child that our trap then immediately kills).
+app.run(debug=False, use_reloader=False, host='${HOST}', port=${PORT})
+PYTHON
+
+PYTHON_PID=$!
+
+trap 'echo "Stopping PokeGen (pid ${PYTHON_PID})..."; kill ${PYTHON_PID} 2>/dev/null || true; wait ${PYTHON_PID} 2>/dev/null || true' INT TERM EXIT
+
+# Wait for the Python child to exit so the script mirrors its lifecycle
+wait ${PYTHON_PID}

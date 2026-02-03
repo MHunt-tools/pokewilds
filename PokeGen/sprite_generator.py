@@ -10,6 +10,11 @@ import sys
 from pathlib import Path
 from typing import Optional
 from PIL import Image
+try:
+    import numpy as np
+except ImportError:
+    np = None
+    print("[WARN] numpy not available — image diagnostics disabled")
 
 
 class SpriteGenerator:
@@ -141,6 +146,77 @@ class SpriteGenerator:
             )
 
             output_path.parent.mkdir(parents=True, exist_ok=True)
+
+            # Ensure image is RGB
+            if high_res.mode != 'RGB':
+                high_res = high_res.convert('RGB')
+
+            # Log basic pixel statistics to help diagnose black/blank outputs
+            try:
+                from PIL import ImageStat
+                stat = ImageStat.Stat(high_res)
+                # stat.mean is per-channel mean
+                means = stat.mean
+                pmean = sum(means) / len(means) if means else 0.0
+                extrema = high_res.getextrema()
+                # extrema is a tuple per channel (min,max)
+                if isinstance(extrema[0], tuple):
+                    pmin = min(e[0] for e in extrema)
+                    pmax = max(e[1] for e in extrema)
+                else:
+                    pmin, pmax = extrema[0], extrema[1]
+                print(f"[DEBUG] high_res image stats - mode={high_res.mode} min={pmin} max={pmax} mean={pmean:.2f}")
+                if pmax == 0 or pmean < 1.0:
+                    print("[WARN] Generated image appears blank/black (all pixels near 0)")
+                    # Attempt a small number of retries with minor prompt tweaks/seeds
+                    import random
+                    for retry in range(2):
+                        try:
+                            tweak = prompt + (" high detail, colorful" if retry == 0 else " vivid colors, detailed")
+                            seed = random.randint(0, 2**31-1)
+                            print(f"[INFO] Retrying sprite generation (retry {retry+1}) with seed={seed}")
+                            high_res = self.generate_sprite(
+                                tweak,
+                                num_inference_steps=num_inference_steps,
+                                height=512,
+                                width=512,
+                                seed=seed,
+                                **kwargs
+                            )
+                            if high_res.mode != 'RGB':
+                                high_res = high_res.convert('RGB')
+                            # recompute stats
+                            from PIL import ImageStat
+                            stat = ImageStat.Stat(high_res)
+                            means = stat.mean
+                            pmean = sum(means) / len(means) if means else 0.0
+                            extrema = high_res.getextrema()
+                            if isinstance(extrema[0], tuple):
+                                pmin = min(e[0] for e in extrema)
+                                pmax = max(e[1] for e in extrema)
+                            else:
+                                pmin, pmax = extrema[0], extrema[1]
+                            print(f"[DEBUG] retry image stats - min={pmin} max={pmax} mean={pmean:.2f}")
+                            if not (pmax == 0 or pmean < 1.0):
+                                print("[INFO] Retry produced non-blank image")
+                                break
+                        except Exception as e:
+                            print(f"[WARN] Retry generation failed: {e}")
+            except Exception as e:
+                # Fallback to numpy if available
+                if np is not None:
+                    try:
+                        arr = np.array(high_res)
+                        pmin = int(arr.min())
+                        pmax = int(arr.max())
+                        pmean = float(arr.mean())
+                        print(f"[DEBUG] high_res image stats (numpy fallback) - mode={high_res.mode} min={pmin} max={pmax} mean={pmean:.2f}")
+                        if pmax == 0 or pmean < 1.0:
+                            print("[WARN] Generated image appears blank/black (all pixels near 0)")
+                    except Exception:
+                        print(f"[WARN] Could not compute image stats: {e}")
+                else:
+                    print(f"[WARN] Could not compute image stats: {e}")
 
             # Save high-resolution image with _512 suffix
             high_res_path = output_path.parent / f"{output_path.stem}_512.png"
